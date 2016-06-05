@@ -11,8 +11,8 @@
   "author": "PlexiLabs",
   "license": "MIT",
   "require": {
-    "Whoisdoma/DomainParser": ">=2.0.0",
-    "symfony/yaml": "~2.7"
+    "Whoisdoma/DomainParser": "1.0.0",
+    "symfony/yaml": "3.1.*"
   },
   "autoload": {
     "psr-4": {
