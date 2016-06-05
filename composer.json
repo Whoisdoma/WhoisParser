@@ -1,0 +1,23 @@
+{
+  "name": "Whoisdoma/WhoisParser",
+  "type": "library",
+  "description": "Lookup domain names, IP addresses and AS numbers by WHOIS.",
+  "keywords": [
+    "whoisparser",
+    "whois",
+    "php"
+  ],
+  "homepage": "https://github.com/Whoisdoma/WhoisParser/",
+  "author": "PlexiLabs",
+  "license": "MIT",
+  "require": {
+    "Whoisdoma/DomainParser": ">=2.0.0",
+    "symfony/yaml": "~2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Whoisdoma\\WhoisParser\\": "src/"
+    }
+  },
+  "version": "1.0.0"
+}
