@@ -1,5 +1,5 @@
 {
-  "name": "Whoisdoma/WhoisParser",
+  "name": "whoisdoma/whoisparser",
   "type": "library",
   "description": "Lookup domain names, IP addresses and AS numbers by WHOIS.",
   "keywords": [
