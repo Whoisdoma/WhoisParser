@@ -17,8 +17,8 @@ Installation
 
 Installing using composer: 
 ```
-composer require Whoisdoma\WhoisParser
-composer require Whoisdoma\DomainParser
+composer require whoisdoma\whoisparser
+composer require whoisdoma\domainparser
 ```
 
 Installing from source: `git clone git://github.com/Whoisdoma/WhoisParser.git` or [download the latest release](https://github.com/Whoisdoma/WhoisParser/zipball/master)
