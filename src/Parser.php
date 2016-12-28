@@ -237,7 +237,7 @@ class Parser
             $this->Query->asn = $query;
         } else {
             $Parser = new \Whoisdoma\DomainParser\Parser();
-            $Parser->setCustomDomainGroups($this->customDomainGroups);
+            //$Parser->setCustomDomainGroups($this->customDomainGroups);
             if ($this->cachePath !== null) {
                 $Parser->setCachePath($this->cachePath);
             }

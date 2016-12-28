@@ -21,7 +21,7 @@ class Uk extends Regex
 	 */
     protected $blocks = array(1 => '/registrant:(.*?)(?=registrant type:)/is', 
             2 => '/address:(.*?)(?=registrar:)/is', 3 => '/registrar:(.*?)(?=relevant dates:)/is', 
-            4 => '/relevant dates:(.*?)(?=registration status:)/is', 
+            4 => '/relevant dates:(.*?)(?=registration status:)/is',
             5 => '/registration status:(.*?)(?=name servers:)/is', 
             6 => '/name servers:(.*?)(?=whois lookup made)/is');
 
@@ -34,7 +34,7 @@ class Uk extends Regex
     protected $blockItems = array(
             1 => array('/registrant:(?>[\n\x20\t]*)(.+)/im' => 'contacts:owner:name'), 
             2 => array('/address:(?>[\n\x20\t]*)(.+)$/is' => 'contacts:owner:address'), 
-            3 => array('/registrar:(?>[\n\x20\t]*)(.+) \[.+\]$/im' => 'registrar:name', 
+            3 => array('/registrar:(?>[\n\x20\t]*)(.+) \[.+\]$/im' => 'registrar:name',
                     '/url:(?>[\n\x20\t]*)(.+)$/im' => 'registrar:url', 
                     '/\[tag = (.+)\]$/im' => 'registrar:id'), 
             4 => array('/registered on:(?>[\x20\t]*)(.+)$/im' => 'created', 
