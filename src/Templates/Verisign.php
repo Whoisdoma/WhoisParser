@@ -33,7 +33,7 @@ class Verisign extends Regex
                     '/registrar iana id:(?>[\x20\t]*)(.+)$/im' => 'registrar:id', 
                     '/referral url:(?>[\x20\t]*)(.+)$/im' => 'registrar:url', 
                     '/creation date:(?>[\x20\t]*)(.+)$/im' => 'created', 
-                    '/expiration date:(?>[\x20\t]*)(.+)$/im' => 'expires', 
+                    '/registry expiry date:(?>[\x20\t]*)(.+)$/im' => 'expires',
                     '/updated date:(?>[\x20\t]*)(.+)$/im' => 'changed', 
                     '/name server:(?>[\x20\t]*)(.+)$/im' => 'nameserver', 
                     '/dnssec:(?>[\x20\t]*)(.+)$/im' => 'dnssec', 
