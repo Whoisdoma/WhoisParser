@@ -8,7 +8,6 @@
     "php"
   ],
   "homepage": "https://github.com/Whoisdoma/WhoisParser/",
-  "author": "PlexiLabs",
   "license": "MIT",
   "require": {
     "whoisdoma/domainparser": "dev-master",
@@ -19,5 +18,5 @@
       "Whoisdoma\\WhoisParser\\": "src/"
     }
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
